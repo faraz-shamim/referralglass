@@ -48,7 +48,7 @@ The live version runs on Render's free web-service plan. It may take a little ti
 4. Inspect the other source pages and confirm them. Each confirmation requires an acknowledgement that the passage belongs to this packet and meets this office's requirement.
 5. Open **Prepare handoff**. The missing-paperwork request follows the staff decisions. Save the source-linked JSON or print/save a PDF locally.
 
-![Real evidence review showing exact extracted passages and source-page controls](https://raw.githubusercontent.com/faraz-shamim/referralglass/main/docs/referralglass-evidence.png)
+![Real evidence review showing the pending investigation-report passage and its source-page controls](https://raw.githubusercontent.com/faraz-shamim/referralglass/main/docs/referralglass-pending.png)
 
 The original-page viewer makes extraction checkable. The bundled two-page sample PDF also gives you a safe way to try real PDF import and scan reading. Every example is explicitly fictional.
 
@@ -123,7 +123,7 @@ The aggregate is a tie. MiniLM finds one paraphrased referral example that the l
 
 This is a small software fixture, not clinical accuracy or evidence of better real-world performance. It supports keeping alternatives and manual source selection available, and keeping human confirmation mandatory.
 
-The repository also includes **24 passing unit/API tests** and a [full browser report](https://github.com/faraz-shamim/referralglass/blob/main/docs/browser-qa.json). The browser checks use actual local embeddings, real PDF parsing, actual English OCR, source confirmations, JSON and A4 PDF exports, mobile layouts, and offline reload. A unique synthetic private marker never appears in outgoing request URLs or bodies. Staff actions are automated with fictional records; clipboard behavior is stubbed during the test.
+A [fresh Linux GitHub Actions run](https://github.com/faraz-shamim/referralglass/actions/runs/39104148344) passed the build and the complete software checks. The repository includes **24 passing unit/API tests** and **26 passing browser checks** in the [full browser report](https://github.com/faraz-shamim/referralglass/blob/main/docs/browser-qa.json). The browser checks use actual local embeddings, real PDF parsing, actual English OCR, source confirmations, JSON and A4 PDF exports, mobile layouts, and offline reload. A unique synthetic private marker never appears in outgoing request URLs or bodies. Staff actions are automated with fictional records; clipboard behavior is stubbed during the test.
 
 ## Why Does Open Innovation Matter?
 

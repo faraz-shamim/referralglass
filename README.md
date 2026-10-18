@@ -12,7 +12,7 @@ This is an administrative challenge prototype. Use fictional or de-identified do
 
 ## Try the complete workflow
 
-1. Open the deployed app (the verified URL is recorded in [deployment.json](docs/deployment.json)), or run it locally below.
+1. Open [the live app](https://referralglass.onrender.com/) ([verified deployment](docs/deployment.json)), or run it locally below.
 2. Choose **Try a sample packet**. Four fictional files contain six pages; the investigation report is explicitly pending.
 3. Choose **Find evidence**, consent to the generic model download, and let MiniLM run on your browser CPU.
 4. Inspect candidate quotes, alternatives and original pages. The pending-report mention cannot be confirmed as supplied paperwork. Other passages require an explicit staff acknowledgement.
@@ -79,6 +79,7 @@ Production listens on `PORT` (default 4176), binds `0.0.0.0`, serves the compres
 ## Verify it
 
 - [Unit and API tests](tests): source fidelity, tamper detection, date/absence handling, unsafe text, API bounds and valid compressed MIME types.
+- [Live Render checks](docs/live-qa.json) verify the deployed commit, genuine browser inference, Render planning, PDF/OCR and JSON export.
 - [Browser QA report](docs/browser-qa.json): real local model, PDF import, real English OCR, source review, exports, mobile layouts, network-marker checks and offline reload. All records and staff actions in this test are synthetic/automated. The clipboard API is stubbed, and actual A4 PDF generation is checked separately from the print-button stub.
 - [Fixed 24-case retrieval report](docs/retrieval-benchmark.json): semantic retrieval **21/24**, TF-IDF cosine **21/24**. The methods make different errors; the aggregate is a tie. This small software fixture is not clinical accuracy, production readiness, measured office time saved, or proof of superiority over keyword search. The corpus was fixed before its first model run; the published labels/results were not altered to improve the score.
 

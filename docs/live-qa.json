@@ -1,0 +1,66 @@
+{
+  "startedAt": "2026-10-18T06:30:09.621Z",
+  "url": "https://referralglass.onrender.com",
+  "checks": [
+    {
+      "name": "Live Render health verifies the deployed source commit and stateless runtime",
+      "passed": true
+    },
+    {
+      "name": "Public HTTPS app renders the packet desk",
+      "passed": true
+    },
+    {
+      "name": "Actual browser MiniLM inference uses the live Render planner with zero automatic approvals",
+      "passed": true
+    },
+    {
+      "name": "Live pending-report source remains unconfirmed",
+      "passed": true
+    },
+    {
+      "name": "Five explicit confirmations produce a source-linked JSON handoff with the missing report outstanding",
+      "passed": true
+    },
+    {
+      "name": "Real PDF parsing and original source image rendering work on the public deployment",
+      "passed": true
+    },
+    {
+      "name": "Public self-hosted OCR assets support genuine local English scan reading",
+      "passed": true
+    },
+    {
+      "name": "Live score API rejects document-text fields without echoing the supplied text",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "syntheticDataOnly": true,
+  "clinicalValidation": false,
+  "health": {
+    "ok": true,
+    "app": "ReferralGlass",
+    "version": "1.0.0",
+    "plannerVersion": "1.0.0",
+    "storage": "none",
+    "render": true,
+    "commit": "d791b086becfd1e7016d78ae1532784ca5de58c3",
+    "documentTextAccepted": false
+  },
+  "plannerRuntime": "render",
+  "model": {
+    "id": "Xenova/all-MiniLM-L6-v2",
+    "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+    "dtype": "q8",
+    "device": "wasm",
+    "dimensions": 384,
+    "license": "Apache-2.0",
+    "durationMs": 20244,
+    "passages": 6,
+    "queries": 6,
+    "inferenceLocation": "browser"
+  },
+  "passed": true,
+  "finishedAt": "2026-10-18T06:31:06.964Z"
+}

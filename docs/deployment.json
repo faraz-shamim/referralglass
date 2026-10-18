@@ -1,0 +1,25 @@
+{
+  "url": "https://referralglass.onrender.com",
+  "provider": "Render",
+  "serviceId": "srv-dba6e5dg1s2s73av4afg",
+  "deployId": "dep-dba6e5tg1s2s73av4e3g",
+  "status": "live",
+  "plan": "free",
+  "region": "singapore",
+  "deployedCommit": "d791b086becfd1e7016d78ae1532784ca5de58c3",
+  "liveAt": "2026-10-18T06:29:42.01592Z",
+  "autoDeploy": false,
+  "database": false,
+  "apiKeysRequired": false,
+  "buildCommand": "npm ci --ignore-scripts --include=dev && npm run build",
+  "startCommand": "npm start",
+  "softwareChecks": {
+    "unitAndApi": 24,
+    "browser": 26,
+    "githubActions": {
+      "url": "https://github.com/faraz-shamim/referralglass/actions/runs/39104148344",
+      "conclusion": "success"
+    }
+  },
+  "category": "Best Use of Render"
+}
