@@ -1,6 +1,6 @@
 ---
 title: "ReferralGlass: An AI Referral Desk That Shows Its Work"
-published: false
+published: true
 tags: devchallenge, hf26challenge, ai, healthcare
 cover_image: https://raw.githubusercontent.com/faraz-shamim/referralglass/main/web/public/art/referralglass-cover.webp
 description: "A local AI referral-packet desk with exact source pages, human confirmations, and a stateless Render planner."

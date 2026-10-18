@@ -1,0 +1,45 @@
+{
+  "url": "https://dev.to/faraz_s_0a6e70a4bbdc6622/referralglass-an-ai-referral-desk-that-shows-its-work-43h3",
+  "checkedAt": "2026-10-18T06:34:04.827Z",
+  "checks": [
+    "Public HTTP 200 and correct article title",
+    "Generated cover and all three real UI screenshots load",
+    "Required challenge tag, live demo and Render category are visible"
+  ],
+  "images": [
+    {
+      "alt": "ReferralGlass: An AI Referral Desk That Shows Its Work",
+      "loaded": true,
+      "dimensions": {
+        "width": 1000,
+        "height": 420
+      }
+    },
+    {
+      "alt": "ReferralGlass packet desk with file import, a customizable office checklist, and local AI controls",
+      "loaded": true,
+      "dimensions": {
+        "width": 800,
+        "height": 793
+      }
+    },
+    {
+      "alt": "Real evidence review showing the pending investigation-report passage and its source-page controls",
+      "loaded": true,
+      "dimensions": {
+        "width": 800,
+        "height": 661
+      }
+    },
+    {
+      "alt": "A fictional PDF rendered locally in the original source-page viewer",
+      "loaded": true,
+      "dimensions": {
+        "width": 800,
+        "height": 583
+      }
+    }
+  ],
+  "mobileHorizontalOverflow": false,
+  "passed": true
+}

@@ -2,6 +2,8 @@
 
 **Every detail, in view.** A source-linked referral-packet desk for a small medical office.
 
+[Live app](https://referralglass.onrender.com/) · [Published DEV submission](https://dev.to/faraz_s_0a6e70a4bbdc6622/referralglass-an-ai-referral-desk-that-shows-its-work-43h3) · [Verified deployment](docs/deployment.json)
+
 ![ReferralGlass editorial cover](web/public/art/referralglass-cover.webp)
 
 ReferralGlass helps a referral coordinator find the paperwork requested by their receiving office. It runs a real open model in the browser, shows the original source page, and requires staff confirmation before a passage enters the handoff. Its bounded planner and agent frontend are hosted on **Render**.
