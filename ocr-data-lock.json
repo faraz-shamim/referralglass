@@ -1,0 +1,7 @@
+{
+  "language": "eng",
+  "source": "https://tessdata.projectnaptha.com/4.0.0/eng.traineddata.gz",
+  "sha256": "ed350f3752f81ee8f38769edc14d92d997dababe23b565c59879372cc46a2468",
+  "bytes": 10923060,
+  "license": "Apache-2.0"
+}

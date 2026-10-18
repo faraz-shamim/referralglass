@@ -1,0 +1,135 @@
+{
+  "format": "referralglass-synthetic-holdout-v1",
+  "lockedBeforeInference": "2026-10-18",
+  "clinicalValidation": false,
+  "cases": [
+    {
+      "id": "reason-1",
+      "requirementId": "reason",
+      "text": "The primary-care clinician asks the consultant to assess the persistent problem outlined in the accompanying history. This letter explains why specialist input is being requested."
+    },
+    {
+      "id": "reason-2",
+      "requirementId": "reason",
+      "text": "Dear colleague, please see this person in your outpatient service. Background history and the question for your specialist opinion are set out in this correspondence."
+    },
+    {
+      "id": "reason-3",
+      "requirementId": "reason",
+      "text": "Consultation request: a community doctor is sending a patient to another specialty. The narrative describes the presenting concern and relevant past history."
+    },
+    {
+      "id": "reason-4",
+      "requirementId": "reason",
+      "text": "This covering letter states the referring practitioner's clinical question and the background that prompted a request for a specialist appointment."
+    },
+    {
+      "id": "medicines-1",
+      "requirementId": "medicines",
+      "text": "Reconciled prescription record: the person continues to take Example Agent Alpha and Example Agent Beta at home. This is the active regular-treatment list, not prescribing advice."
+    },
+    {
+      "id": "medicines-2",
+      "requirementId": "medicines",
+      "text": "Routine medicines on the current chart are Fictional Compound A and Fictional Compound B. The referring office checked what is being taken at the last visit."
+    },
+    {
+      "id": "medicines-3",
+      "requirementId": "medicines",
+      "text": "The home-drug reconciliation sheet lists all ongoing prescribed preparations. These fictional entries illustrate what staff should find in a current medication record."
+    },
+    {
+      "id": "medicines-4",
+      "requirementId": "medicines",
+      "text": "Active treatments register: recorded regular prescriptions were reviewed with the person and updated by the referring team. The chart contains fictional placeholder products."
+    },
+    {
+      "id": "allergies-1",
+      "requirementId": "allergies",
+      "text": "Sensitivity register: Fictional Compound C was followed by an itchy skin reaction. The reaction history is documented here for the receiving team."
+    },
+    {
+      "id": "allergies-2",
+      "requirementId": "allergies",
+      "text": "The adverse-response section records intolerance to an example substance. Staff entered both the offending agent and the nature of the reaction in this fictional chart."
+    },
+    {
+      "id": "allergies-3",
+      "requirementId": "allergies",
+      "text": "Allergen history was checked at the visit. No known drug allergies are recorded in this synthetic example, and the statement is documented by the referring office."
+    },
+    {
+      "id": "allergies-4",
+      "requirementId": "allergies",
+      "text": "Past reactions to medicines are listed on this sensitivity sheet. It identifies the fictional trigger and the response that the person previously experienced."
+    },
+    {
+      "id": "investigations-1",
+      "requirementId": "investigations",
+      "text": "Radiology findings: this signed imaging report contains observations from the diagnostic service and is enclosed with the referral. All findings are fictional."
+    },
+    {
+      "id": "investigations-2",
+      "requirementId": "investigations",
+      "text": "The diagnostic laboratory has issued the attached findings sheet. It records the completed test results and the reporting date, without offering treatment recommendations."
+    },
+    {
+      "id": "investigations-3",
+      "requirementId": "investigations",
+      "text": "An investigation results document is enclosed. It contains the diagnostic service's completed observations rather than a request for future testing."
+    },
+    {
+      "id": "investigations-4",
+      "requirementId": "investigations",
+      "text": "Completed examination findings from the imaging department are transcribed on this report. The referring office has received the results for the packet."
+    },
+    {
+      "id": "contact-1",
+      "requirementId": "contact",
+      "text": "Office cover sheet: record reference DEMO-200, telephone +1 202-555-0182, referring organization Mossvale Demo Clinic. These are fictional administrative contact details."
+    },
+    {
+      "id": "contact-2",
+      "requirementId": "contact",
+      "text": "The registration face sheet records a callback number, a local patient reference, and the sending practice. It is the administrative contact page for this example packet."
+    },
+    {
+      "id": "contact-3",
+      "requirementId": "contact",
+      "text": "Demographic routing slip: fictional case reference DEMO-200 and a callback telephone number are supplied alongside the originating clinic's name."
+    },
+    {
+      "id": "contact-4",
+      "requirementId": "contact",
+      "text": "Intake administration page: the sending practice and patient callback details are written here so the receiving office can route correspondence to the correct record."
+    },
+    {
+      "id": "consent-1",
+      "requirementId": "consent",
+      "text": "Release of information: the person has signed permission for the referring practice to disclose these records to the receiving specialist service for this referral."
+    },
+    {
+      "id": "consent-2",
+      "requirementId": "consent",
+      "text": "A signed authorization permits transfer of the enclosed health documents between the sending clinic and the named receiving practice. This is a fictional permission form."
+    },
+    {
+      "id": "consent-3",
+      "requirementId": "consent",
+      "text": "Records-sharing agreement: the person consents to the disclosure of the enclosed medical paperwork to the specialist office, with a signature and date recorded."
+    },
+    {
+      "id": "consent-4",
+      "requirementId": "consent",
+      "text": "The disclosure permission sheet is signed. It authorizes the clinic to provide copies of the relevant health record to the receiving team for this outpatient referral."
+    }
+  ],
+  "distractors": {
+    "reason": "The primary-care clinician asks the consultant to assess the persistent problem outlined in the accompanying history. This letter explains why specialist input is being requested.",
+    "medicines": "Reconciled prescription record: the person continues to take Example Agent Alpha and Example Agent Beta at home. This is the active regular-treatment list, not prescribing advice.",
+    "allergies": "Sensitivity register: Fictional Compound C was followed by an itchy skin reaction. The reaction history is documented here for the receiving team.",
+    "investigations": "Radiology findings: this signed imaging report contains observations from the diagnostic service and is enclosed with the referral. All findings are fictional.",
+    "contact": "Office cover sheet: record reference DEMO-200, telephone +1 202-555-0182, referring organization Mossvale Demo Clinic. These are fictional administrative contact details.",
+    "consent": "Release of information: the person has signed permission for the referring practice to disclose these records to the receiving specialist service for this referral."
+  }
+}

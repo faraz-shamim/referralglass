@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#153f39" />
+    <link rel="icon" href="/icon.svg" />
+    <title>Retrieval lab - ReferralGlass</title>
+  </head>
+  <body>
+    <main class="lab-wrap">
+      <a class="brand" href="/"><img src="/icon.svg" alt="" />ReferralGlass</a
+      ><span class="eyebrow">A SMALL, REPRODUCIBLE CHECK</span>
+      <h1>Show the model’s work.</h1>
+      <p>
+        This lab compares local MiniLM semantic retrieval with a TF-IDF cosine
+        baseline on 24 fixed, synthetic document-type cases. Each case contains
+        one target passage and five passages of other document types. The same
+        text and requirements are used for both methods.
+      </p>
+      <p>
+        It measures top-1 retrieval on this small fixture,
+        <strong
+          >not clinical accuracy, real-world completeness, or time saved by a
+          clinic</strong
+        >. The corpus is bundled with the source so the examples, labels, and
+        failures can be inspected.
+      </p>
+      <div class="lab-actions">
+        <button class="button primary" id="run-benchmark">
+          Run local benchmark</button
+        ><button class="button soft" id="save-benchmark" disabled>
+          Save measured report
+        </button>
+      </div>
+      <p id="lab-progress" class="download-note">
+        First run downloads about 50 MB of generic model and runtime assets. No
+        patient data is used.
+      </p>
+      <section id="lab-result" class="card lab-result" hidden></section>
+    </main>
+    <script type="module" src="/lab.js"></script>
+  </body>
+</html>

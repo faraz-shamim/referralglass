@@ -1,0 +1,95 @@
+@page {
+  size: A4;
+  margin: 16mm 15mm;
+}
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #222;
+  }
+  #app,
+  #dialogs,
+  #toast {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-only .report-page {
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    max-width: none;
+    color: #222;
+  }
+  .report-brand {
+    font-size: 15pt;
+  }
+  .report-page h1 {
+    font-size: 24pt;
+    margin: 20pt 0;
+  }
+  .report-meta {
+    font-size: 9pt;
+  }
+  .report-meta b {
+    font-size: 7pt;
+    color: #555;
+  }
+  .report-item {
+    break-inside: avoid;
+    margin-top: 16pt;
+    padding-top: 13pt;
+  }
+  .report-item h3 {
+    font-size: 11pt;
+    color: #222;
+  }
+  .report-status {
+    font-size: 7pt;
+    color: #333;
+  }
+  .report-item blockquote {
+    font-size: 9pt;
+    line-height: 1.6;
+    color: #333;
+    padding-left: 12pt;
+    border-left: 2pt solid #aaa;
+  }
+  .report-item .report-citation {
+    font-size: 8pt;
+    color: #555;
+  }
+  .report-item .report-hash {
+    font-size: 6pt;
+    color: #555;
+  }
+  .report-demo,
+  .report-disclaimer,
+  .report-footer {
+    font-size: 8pt;
+    color: #555;
+  }
+  .report-footer {
+    margin-top: 20pt;
+  }
+  .report-brand img {
+    width: 24pt;
+    height: 24pt;
+  }
+  .report-brand > span {
+    font-size: 7pt;
+    margin-left: auto;
+    width: auto;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

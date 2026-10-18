@@ -1,0 +1,248 @@
+{
+  "startedAt": "2026-10-18T06:26:54.029Z",
+  "finishedAt": "2026-10-18T06:26:58.704Z",
+  "model": {
+    "id": "Xenova/all-MiniLM-L6-v2",
+    "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+    "dtype": "q8",
+    "device": "wasm",
+    "dimensions": 384,
+    "license": "Apache-2.0"
+  },
+  "backend": "wasm CPU",
+  "corpus": "referralglass-synthetic-holdout-v1",
+  "corpusSha256": "9858343211de4d9adaf44107759a3b9248a5a66a09ce8af5b35a35a4ba8035c8",
+  "cases": 24,
+  "semantic": {
+    "correct": 21,
+    "top1Accuracy": 0.875
+  },
+  "lexical": {
+    "correct": 21,
+    "top1Accuracy": 0.875,
+    "method": "TF-IDF cosine with simple suffix normalization"
+  },
+  "totalDurationMs": 4675,
+  "modelDurationMs": 4565,
+  "clinicalValidation": false,
+  "syntheticDataOnly": true,
+  "results": [
+    {
+      "id": "reason-1",
+      "expected": "reason",
+      "semanticPredicted": "reason",
+      "lexicalPredicted": "reason",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.6688
+    },
+    {
+      "id": "reason-2",
+      "expected": "reason",
+      "semanticPredicted": "investigations",
+      "lexicalPredicted": "consent",
+      "semanticCorrect": false,
+      "lexicalCorrect": false,
+      "semanticTopScore": 0.4599
+    },
+    {
+      "id": "reason-3",
+      "expected": "reason",
+      "semanticPredicted": "reason",
+      "lexicalPredicted": "consent",
+      "semanticCorrect": true,
+      "lexicalCorrect": false,
+      "semanticTopScore": 0.5773
+    },
+    {
+      "id": "reason-4",
+      "expected": "reason",
+      "semanticPredicted": "reason",
+      "lexicalPredicted": "reason",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.7528
+    },
+    {
+      "id": "medicines-1",
+      "expected": "medicines",
+      "semanticPredicted": "medicines",
+      "lexicalPredicted": "medicines",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.4959
+    },
+    {
+      "id": "medicines-2",
+      "expected": "medicines",
+      "semanticPredicted": "medicines",
+      "lexicalPredicted": "medicines",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.5844
+    },
+    {
+      "id": "medicines-3",
+      "expected": "medicines",
+      "semanticPredicted": "medicines",
+      "lexicalPredicted": "medicines",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.6849
+    },
+    {
+      "id": "medicines-4",
+      "expected": "medicines",
+      "semanticPredicted": "medicines",
+      "lexicalPredicted": "medicines",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.5691
+    },
+    {
+      "id": "allergies-1",
+      "expected": "allergies",
+      "semanticPredicted": "allergies",
+      "lexicalPredicted": "allergies",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.4341
+    },
+    {
+      "id": "allergies-2",
+      "expected": "allergies",
+      "semanticPredicted": "allergies",
+      "lexicalPredicted": "allergies",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.4832
+    },
+    {
+      "id": "allergies-3",
+      "expected": "allergies",
+      "semanticPredicted": "allergies",
+      "lexicalPredicted": "allergies",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.7205
+    },
+    {
+      "id": "allergies-4",
+      "expected": "allergies",
+      "semanticPredicted": "allergies",
+      "lexicalPredicted": "allergies",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.5391
+    },
+    {
+      "id": "investigations-1",
+      "expected": "investigations",
+      "semanticPredicted": "investigations",
+      "lexicalPredicted": "investigations",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.6366
+    },
+    {
+      "id": "investigations-2",
+      "expected": "investigations",
+      "semanticPredicted": "investigations",
+      "lexicalPredicted": "investigations",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.7344
+    },
+    {
+      "id": "investigations-3",
+      "expected": "investigations",
+      "semanticPredicted": "investigations",
+      "lexicalPredicted": "investigations",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.6613
+    },
+    {
+      "id": "investigations-4",
+      "expected": "investigations",
+      "semanticPredicted": "investigations",
+      "lexicalPredicted": "investigations",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.5397
+    },
+    {
+      "id": "contact-1",
+      "expected": "contact",
+      "semanticPredicted": "contact",
+      "lexicalPredicted": "contact",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.5675
+    },
+    {
+      "id": "contact-2",
+      "expected": "contact",
+      "semanticPredicted": "contact",
+      "lexicalPredicted": "contact",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.6268
+    },
+    {
+      "id": "contact-3",
+      "expected": "contact",
+      "semanticPredicted": "consent",
+      "lexicalPredicted": "contact",
+      "semanticCorrect": false,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.5454
+    },
+    {
+      "id": "contact-4",
+      "expected": "contact",
+      "semanticPredicted": "consent",
+      "lexicalPredicted": "consent",
+      "semanticCorrect": false,
+      "lexicalCorrect": false,
+      "semanticTopScore": 0.5454
+    },
+    {
+      "id": "consent-1",
+      "expected": "consent",
+      "semanticPredicted": "consent",
+      "lexicalPredicted": "consent",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.6203
+    },
+    {
+      "id": "consent-2",
+      "expected": "consent",
+      "semanticPredicted": "consent",
+      "lexicalPredicted": "consent",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.7559
+    },
+    {
+      "id": "consent-3",
+      "expected": "consent",
+      "semanticPredicted": "consent",
+      "lexicalPredicted": "consent",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.8121
+    },
+    {
+      "id": "consent-4",
+      "expected": "consent",
+      "semanticPredicted": "consent",
+      "lexicalPredicted": "consent",
+      "semanticCorrect": true,
+      "lexicalCorrect": true,
+      "semanticTopScore": 0.6568
+    }
+  ],
+  "passed": true
+}

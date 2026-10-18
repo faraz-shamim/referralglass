@@ -1,0 +1,192 @@
+{
+  "startedAt": "2026-10-18T06:26:05.885Z",
+  "environment": "Fresh isolated Chromium profile; synthetic medical paperwork; automated staff actions; no clinical validation",
+  "checks": [
+    {
+      "name": "Desktop packet desk renders with empty-state actions and no exceptions",
+      "passed": true
+    },
+    {
+      "name": "Fictional sample loads four files and six source pages",
+      "passed": true
+    },
+    {
+      "name": "Model download and data-flow consent precedes inference",
+      "passed": true
+    },
+    {
+      "name": "Genuine local MiniLM inference produces six findings with zero automatic approvals",
+      "passed": true
+    },
+    {
+      "name": "Server planner receives only bounded score metadata",
+      "passed": true,
+      "detail": {
+        "bytes": 3106,
+        "keys": [
+          "version",
+          "requirements"
+        ],
+        "requirements": 6
+      }
+    },
+    {
+      "name": "Evidence opens the exact highlighted original text and source page",
+      "passed": true
+    },
+    {
+      "name": "Explicit staff acknowledgement is required to confirm a source",
+      "passed": true
+    },
+    {
+      "name": "Pending-report mentions cannot be confirmed as supplied paperwork",
+      "passed": true
+    },
+    {
+      "name": "Five genuine source candidates can be reviewed while the missing report remains unconfirmed",
+      "passed": true
+    },
+    {
+      "name": "Missing-paperwork draft reflects staff decisions (clipboard API stubbed)",
+      "passed": true
+    },
+    {
+      "name": "JSON export contains only staff-confirmed source quotations and file hashes",
+      "passed": true
+    },
+    {
+      "name": "Print action and actual A4 PDF output use the reviewed draft",
+      "passed": true
+    },
+    {
+      "name": "All three primary screens fit a 390-pixel phone viewport",
+      "passed": true
+    },
+    {
+      "name": "Changing the office checklist invalidates earlier findings and confirmations",
+      "passed": true
+    },
+    {
+      "name": "Office checklist exports and imports without document content",
+      "passed": true
+    },
+    {
+      "name": "A unique private text marker never appears in outgoing requests or executes as HTML",
+      "passed": true
+    },
+    {
+      "name": "Untrusted document markup is displayed as inert source text",
+      "passed": true
+    },
+    {
+      "name": "Manual source selection is available without automatic confirmation",
+      "passed": true
+    },
+    {
+      "name": "Clearing the workspace removes documents, findings and working memory",
+      "passed": true
+    },
+    {
+      "name": "A real two-page PDF imports, preserves text and renders the original page locally",
+      "passed": true
+    },
+    {
+      "name": "Genuine local Tesseract OCR reads the scan and retains source verification controls",
+      "passed": true
+    },
+    {
+      "name": "Unsupported uploads are rejected without replacing the current packet",
+      "passed": true
+    },
+    {
+      "name": "Real 24-case retrieval benchmark executes on CPU and records every prediction",
+      "passed": true,
+      "detail": {
+        "semantic": {
+          "correct": 21,
+          "top1Accuracy": 0.875
+        },
+        "lexical": {
+          "correct": 21,
+          "top1Accuracy": 0.875,
+          "method": "TF-IDF cosine with simple suffix normalization"
+        },
+        "modelDurationMs": 4565
+      }
+    },
+    {
+      "name": "Cached app, actual local model and planner run after reload with the network disabled",
+      "passed": true
+    },
+    {
+      "name": "Complete fictional packet permits all six explicit staff confirmations",
+      "passed": true
+    },
+    {
+      "name": "Every Hugging Face model and tokenizer request uses the pinned immutable revision",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "unexpectedFailedRequests": [],
+  "clinicalValidation": false,
+  "model": {
+    "id": "Xenova/all-MiniLM-L6-v2",
+    "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+    "dtype": "q8",
+    "device": "wasm",
+    "dimensions": 384,
+    "license": "Apache-2.0",
+    "durationMs": 35944,
+    "passages": 6,
+    "queries": 6,
+    "inferenceLocation": "browser"
+  },
+  "ocr": {
+    "realInference": true,
+    "language": "eng",
+    "fixture": "A rendered, clearly fictional two-page office PDF; first page used as a scan",
+    "expectedReferenceRead": true
+  },
+  "modelRequestsUsePinnedRevision": true,
+  "networkPrivacy": {
+    "uniquePrivateMarkerLeaked": false,
+    "plannerCalls": 4,
+    "plannerPayloads": [
+      {
+        "bytes": 3106,
+        "keys": [
+          "version",
+          "requirements"
+        ],
+        "requirements": 6
+      },
+      {
+        "bytes": 3091,
+        "keys": [
+          "version",
+          "requirements"
+        ],
+        "requirements": 6
+      },
+      {
+        "bytes": 3106,
+        "keys": [
+          "version",
+          "requirements"
+        ],
+        "requirements": 6
+      },
+      {
+        "bytes": 3110,
+        "keys": [
+          "version",
+          "requirements"
+        ],
+        "requirements": 6
+      }
+    ]
+  },
+  "passed": true,
+  "finishedAt": "2026-10-18T06:27:06.353Z"
+}

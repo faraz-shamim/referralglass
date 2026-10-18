@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.runtime/
+.env
+.env.*
+!.env.example
+web/public/ocr/
+web/public/pdf/
+playwright-report/
+test-results/
+web/public/onnx/
+web/public/licenses/
